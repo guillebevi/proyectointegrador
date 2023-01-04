@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    --font-family:'Nerko One', cursive;
+    --padding-x: 100px;
+}
+
+*{
+   margin: 0; 
+   padding: 0;
+   
+}
+
+body{
+    background-image: url(./img/est.png);
+    background-size: contain;
+    background-attachment: fixed;
+    
+    
+}
+
+
+.navlogo{
+    cursor: pointer;
+}
+
+.navbar{
+ height: 80px; 
+ background-color: 2D033B;
+ padding: 10px 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+ 
+.navlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .navlogo img{
+ width: 100%;
+ max-width: 150px;
+ min-width: 65px;
+ max-height: 78px;
+}
+
+.menu{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.menu ul{
+    
+    display: flex;
+    
+    align-items: center;
+    
+    
+}
+
+.menu ul li{
+    
+    margin: 0 25px;
+    
+    transition: 0.5s;
+
+}
+
+.menu ul li:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+.menu li:last-child{
+    
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:'Nerko One', cursive; 
+}
+
+
+.seccion{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(./img/161982829_378140663512631_7463007468056493587_n.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.seccion-texto{
+    display: flex;
+    justify-content: center;
+    
+    font-family:'Nerko One', cursive;
+    font-size: 2rem;
+    padding: 20px;
+
+
+    
+
+}
+    
+
+
+
+.seccion2{
+    height: 40%;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+.contenedor{
+    padding: 0px;
+    margin: 0px 00px;
+    display: inline;
+
+
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Nerko One ;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+
+    
+
+
+
+.sub-titulo{
+    padding: 50px var(--padding-x);
+    margin-top: 50px;
+    font-family:Nerko One ;
+    font-size: 25px;
+
+
+}
+
+
+
+ 
+.imagenesproductos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+
+}
+.imag img{
+    border-radius: 30px;
+    box-shadow: 7px 5px 5px;
+
+}
+
+.text-imag{
+    font-family:Nerko One ;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.contacto{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 100%);
+    
+
+     
+}
+
+.contenedor-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.contenedor2{
+    width: 100%;
+    
+    
+}
+
+
+.contenedor-img{
+    width: 30%;
+    
+    
+
+}
+
+.contenedor-form .form-items {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contenedor-form .form-items label{
+    font-family:Nerko One ;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    
+
+}
+
+.contenedor-form .form-items input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    outline: none;
+    width: 100%;
+    
+
+}
+
+.contenedor-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+    background-color: rgb(233, 66, 197);
+    box-shadow: 7px 5px 5px;
+    
+
+}
+
+button:hover{
+    background-color: blueviolet;
+    
+}
+
+
+footer {
+    
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 15%;
+    margin-top: 10%;
+     
+}
+
+
+
+.titulo-seccion{
+    
+    font-family:'Nerko One', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.redes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+
+}
+
+.redes i {
+    font-size: 25px;
+    padding: 0 20px;
+
+}
+.redes{
+    cursor: pointer;
+
+}
+
+.menu-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.menu-icon, #check{
+    display: none;
+}
+
+.login{
+
+    width: 15%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    left: 85%;
+
+
+}
+.login p{
+    font-family:'Nerko One', cursive;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid silver;
+
+}
+input{
+    width: 100%;
+}
+
+label{
+    font-family:'Nerko One', cursive;
+}
+
+.boton{
+    width: 50%;
+    color: whitesmoke;
+    background-color: rgb(85, 53, 86);
+    border-radius: 30px;
+    border: 1px solid;
+    cursor: pointer;
+    outline: nose;
+    
+    
+   
+}
+
+
+@media screen and (max-width: 1200px){
+
+    h1{
+        margin-top: 180px;
+    }
+    h5{
+    font-size: 40px;
+    margin-bottom: 30px;
+    }
+
+
+    .imagenesproductos{
+    display: flex;
+    flex-direction:column;
+
+ } 
+    .contenedor-contacto{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .contenedor-contacto{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 200px;
+        
+
+        
+    }
+    .contacto .contenedor2 h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 300px;
+    }
+    
+       button{
+        margin-left: 200px;
+
+       } 
+       
+
+    
+}   
+        
+
+
+
+@media screen and (max-width: 768px){
+
+        .sub-titulo{
+        padding: px var(--padding-x);
+        margin-top: 50px;
+        font-family:Nerko One ;
+        font-size: 25px; }
+
+        .checkbtn{
+            display: block;
+        }
+
+        .menu-icon{
+            display: block;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+         .menu ul{
+            display: block;
+            position: fixed;
+            top: 70px;
+            left: -100%;
+            background: blueviolet;
+            width: 100%;
+            height: 100vh;
+            right: 0;
+        }
+
+        .menu ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+
+
+}
+        .menu ul li:last-child{
+        background: none;
+        padding: 1rem;
+
+
+}
+        #check:checked ~ ul{
+        left: 0;
+
+    }
+
+        .formulario{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+}
+
+    .contenedor-contacto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+}
+
+    button{
+    width: 100%;
+    margin-left: 0;
+    
+
+}
+
+   h2{
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 60px;
+   }
+
+   .username{
+    text-align: center;
+    
+   }
+   .contraseña{
+    text-align: center;
+   }
+
+   .boton{
+    width: 100%;
+   }
+}
+
+
+
+@media screen and (max-width: 576px){
+
+    .seccion{
+        height:50%;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 40px;
+    }
+.contenedor-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+}
+
+@media screen and (max-width: 425px){
+    .seccion{
+        height: 20%;
+    }
+h1{
+    font-size: 20px;
+    margin-top: 0;
+}
+.sub-titulo{
+    font-size: 20px;
+}
+.contenedor-contacto{
+    margin-left: 25px;
+
+    
+}
+h2{
+    margin-right: 0;
+}
+.contenedor-contacto{
+    margin-left: 0;
+}
+.login{
+font-size: 10px;
+}
+
+}
+    
+    
+@media screen and (max-width: 375px){
+    .seccion{
+        height: 20%;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .seccion2{
+        height: 20%;
+    }
+    .sub-titulo{
+        font-size: 15px;
+        margin-top: 0;
+    }
+h2{
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+
+.contenedor-contacto{
+    padding-right: 83px;
+}
+}
+    
+
+    
+
+
+    
