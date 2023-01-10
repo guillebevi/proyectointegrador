@@ -351,49 +351,6 @@ footer {
     display: none;
 }
 
-.login{
-
-    width: 15%;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    position: relative;
-    left: 85%;
-
-
-}
-.login p{
-    font-family:'Nerko One', cursive;
-    text-align: center;
-    padding: 10px 0 10px 0;
-    border-bottom: 1px solid silver;
-
-}
-
-
-
-
-
-
-input{
-    width: 100%;
-}
-
-label{
-    font-family:'Nerko One', cursive;
-}
-
-.boton{
-    width: 50%;
-    color: whitesmoke;
-    background-color: rgb(85, 53, 86);
-    border-radius: 30px;
-    border: 1px solid;
-    cursor: pointer;
-    outline: nose;
-    
-    
-   
-}
 
 
 @media screen and (max-width: 1200px){
