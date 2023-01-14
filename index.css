@@ -662,6 +662,9 @@ h1{
         font-size: 1.9em;
         padding: 10px;
     }
+    .seccion2{
+        height: 65%;
+    }
 }
 @media screen and (max-width: 425px){
     .seccion{
