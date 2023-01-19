@@ -100,8 +100,8 @@ align-items: center;
 .seccion{
     height: 100%;
     width: 100%;
-    background-image: url(./img/161982829_378140663512631_7463007468056493587_n.jpg);
-    overflow: scroll;
+    background-image: url(./img/161982829_378140663512631_7463007468056493587_n222222222.jpg);
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -423,6 +423,9 @@ footer {
 }      
 
 @media screen and (max-width: 866px){
+    h1{
+        font-size: 1.7em;
+    }
 
 .imagenesproductos{
     padding: 0;
@@ -746,6 +749,12 @@ button{
 }
 
 }
+@media screen and (max-width: 343px){
+    .imagenesproductos{
+        min-width: 75%;
+    }
+
+}
 @media screen and (max-width: 332px){
     h1{
         font-size: 0.7em;
@@ -777,6 +786,8 @@ button{
     .seccion2{
         height: 65%;
     }
+    
+    
     .sub-titulo{
         font-size: 22px;
     }
