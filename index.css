@@ -96,15 +96,50 @@ align-items: center;
     font-family:'Nerko One', cursive; 
 }
 
-
 .seccion{
-    height: 100%;
     width: 100%;
-    background-image: url(./img/161982829_378140663512631_7463007468056493587_n222222222.jpg);
+    height: 90%;
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    height: 900px;
+    overflow: hidden;
+     
+}
+.slider ul{
+    padding: 0;
+    width: 400%;
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
     
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider li img{
+    width: 100%;
+    height: 80%;
+    padding-top: 20px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+    
+    
+    
     
 
 }
@@ -113,8 +148,9 @@ align-items: center;
     display: flex;
     justify-content: center;
     font-family:'Nerko One', cursive;
-    font-size: 2rem;
-    padding: 20px;
+    font-size: 5rem;
+    padding: 10px;
+    letter-spacing: 9px;
 
 }
     
@@ -410,7 +446,7 @@ footer {
         width: 30%;
     }
      .seccion{
-        height: 80%;
+        height: 60%;
      }
 
 }
@@ -420,12 +456,20 @@ footer {
     margin-top: 0;
     padding: 20px;
 }
+.seccion-texto{
+    font-size: 3.6em;
+    
+}
+
 }      
 
 @media screen and (max-width: 866px){
-    h1{
-        font-size: 1.7em;
+    .seccion-texto{
+        font-size: 2.7em;
     }
+    .seccion{
+        height: 50%;
+     }
 
 .imagenesproductos{
     padding: 0;
@@ -440,10 +484,10 @@ footer {
 
 @media screen and (max-width: 836px){
     .seccion{
-        height: 60%;
+        height: 45%;
     }
     .seccion-texto{
-        padding: 0;
+        padding: 10;
     }
 
     h1{
@@ -552,12 +596,17 @@ footer {
 }
 
 @media screen and (max-width: 659px){
-    h1{
-        font-size: 1.2em;
+    .seccion-texto{
+        font-size: 2em;
+        
 
     }
+    .slider li img{
+        padding-top: 20px;
+    }
+
     .seccion{
-        height: 50%;
+        height: 40%;
     }
     .sobrenosotros1{
         padding-top: 0;
@@ -570,6 +619,13 @@ footer {
     
 }
 @media screen and (max-width: 576px){
+    .seccion-texto{
+        font-size: 2em;
+        letter-spacing: 4;
+    }
+    .slider li img{
+        padding-top: 30px;
+    }
 
     .seccion{
         height:40%;
@@ -623,6 +679,9 @@ h1{
 .seccion-texto{
     padding-top: 10px;
 }
+.slider li img{
+    padding-top: 30px;
+}
 
 }
 
@@ -635,6 +694,9 @@ h1{
     }
     .contenedor-form{
         width: 50%;
+    }
+    .seccion{
+        height: 35%;
     }
 }
 @media screen and (max-width: 482px){
@@ -649,14 +711,15 @@ h1{
     }
 }
 @media screen and (max-width: 447px){
-    h1{
-        font-size: 0.8em;
+   .seccion-texto{
+        font-size: 1.7em;
+        letter-spacing: 3;
     }
     .productos1{
         margin-top: 0;
     }
     .seccion{
-        height: 35%;
+        height: 30%;
     }
     .contenedor-form{
         width: 60%;
@@ -680,6 +743,9 @@ h1{
 }
 .seccion-texto{
     padding-top: 10px;
+}
+.slider li img{
+    padding-top: 20;
 }
 .sub-titulo{
     font-size: 1.8em;
@@ -709,14 +775,18 @@ font-size: 10px;
 
 @media screen and (max-width: 390px){
 .sub-titulo{
-    margin-top: 0;
+    margin-top: ;
+}
+.seccion-texto{
+    font-size: 1.5em;
+    padding-top: 15px;
 }
 
 }   
     
 @media screen and (max-width: 375px){
     .seccion{
-        height: 35%;
+        height: 28%;
     }
     h1{
         font-size: 0.7em;
@@ -734,7 +804,9 @@ h2{
     font-size: 40px;
     
 }
-
+.slider li img{
+    padding-top: 20px;
+}
 
 .productos1{
     margin: 20px 0;
@@ -753,6 +825,12 @@ button{
     .imagenesproductos{
         min-width: 75%;
     }
+    .seccion-texto{
+        font-size: 1.3em;
+    }
+    .seccion{
+        height: 25%;
+    }
 
 }
 @media screen and (max-width: 332px){
@@ -766,19 +844,19 @@ button{
 
 
 @media screen and (max-width: 320px){
-    h1{
-        font-size: 0.7em;
-        letter-spacing: px;
-        padding-top: 0;
+    .seccion-texto{
+        font-size: 1em;
+        padding-top: 15px;
     }
      h2{
         margin-right: 0;
         
     }
-    
-    .seccion-texto{
-        padding: 0;
+    .seccion{
+        height: 35%;
+       
     }
+    
 
     .productos1{
         margin-top: 0;
